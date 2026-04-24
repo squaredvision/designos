@@ -138,10 +138,10 @@ DesignOS can scale with:
 
 ### Document Tiers
 Different rules depending on output type:
-- Decks
-- Case studies
-- Reports
-- Landing pages
+- [Decks](examples/DECK.MD)
+- [Case studies](examples/CASE_STUDY.MD)
+- [Reports](examples/REPORT.MD)
+- [Landing pages](examples/LANDING_PAGE.MD) 
 
 ---
 
