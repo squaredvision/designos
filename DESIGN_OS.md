@@ -1,5 +1,6 @@
 ---
 name: DesignOS
+version: 1.0
 theme: dark
 
 colors:
@@ -56,22 +57,44 @@ motion:
   easing: ease-in-out
 ---
 
-# DESIGN OS
+# DesignOS Specification
 
-## Overview
-A unified system that combines design, brand, voice, and language into one scalable framework.
-
-Built for:
-- Speed
-- Clarity
-- Consistency
-- Scalability
+A machine-readable system that defines how marketing and design outputs are created, structured, and validated.
 
 ---
 
-# 1. DESIGN SYSTEM
+## 1. SYSTEM OVERVIEW
 
-## Principles
+DesignOS combines:
+
+- Design (layout, hierarchy)
+- Brand (identity, visuals)
+- Voice (tone, communication)
+- Vocabulary (language rules)
+
+Into a single system for **consistent, scalable output production**.
+
+---
+
+## 2. SYSTEM FLOW
+
+```text
+Input (Prompt)
+  ↓
+DesignOS System
+  ↓
+Structured Output
+  ↓
+Validation
+  ↓
+Final Output
+```
+
+---
+
+## 3. DESIGN SYSTEM
+
+### Principles
 - High information density
 - Low visual noise
 - Fast scanning
@@ -79,9 +102,7 @@ Built for:
 
 ---
 
-## Color Usage
-
-### Rules
+### Color Rules
 - Primary = key actions only
 - Accent = highlights and CTAs
 - Max 2 accent colors per screen
@@ -90,15 +111,13 @@ Built for:
 
 ---
 
-## Typography
-
-### Rules
+### Typography Rules
 - Max 3 sizes per screen
 - Max 2 font families
 - Line height: 1.4–1.6
 - Avoid excessive weights
 
-### Hierarchy
+Hierarchy:
 - Display → Hero
 - Heading → Structure
 - Body → Content
@@ -106,156 +125,60 @@ Built for:
 
 ---
 
-## Layout & Spacing
-
-### Grid
+### Layout System
+Grid:
 - Desktop: 12 columns
 - Tablet: 8 columns
 - Mobile: 4 columns
 
-### Spacing Rules
+Spacing:
 - 8px base system
 - Internal spacing < external spacing
-- Consistency across components
+- Consistent padding across components
 
 ---
 
-## Components
-
-### Principles
+### Components
 - Reusable
 - Predictable
 - Stateless by default
 
 ---
 
-### Buttons
-- Height: 40–48px
-- Radius: 8px
-
-Variants:
-- Primary
-- Secondary
-- Ghost
-
-States:
-- Default
-- Hover
-- Active
-- Disabled
+### Interaction
+- Motion: 150–300ms
+- Subtle transitions only
+- Immediate feedback required
 
 ---
 
-### Inputs
-- Border: 1px
-- Background: surface-variant
-
-States:
-- Default
-- Focus
-- Error
-- Disabled
-
----
-
-### Cards
-- No elevation
-- Use contrast instead
-- Optional borders
-
----
-
-### Modals
-- Centered
-- Dimmed overlay
-- Clear CTA
-
----
-
-## Interaction
-
-### Motion
-- 150–300ms only
-- Subtle transitions
-- No decorative animation
-
-### Feedback
-- Immediate response
-- Always show hover/focus
-
----
-
-## Accessibility
+### Accessibility
 - WCAG AA (4.5:1)
-- Min target: 44px
+- Minimum click target: 44px
 - Keyboard navigation required
-- Visible focus states mandatory
 
 ---
 
-## Design Logic
-
-### Hierarchy Order
-1. Size
-2. Contrast
-3. Position
-4. Color
+## 4. BRAND SYSTEM
 
 ### Rules
-- If everything stands out → nothing does
-- Inconsistent spacing breaks layout
-- Competing colors kill hierarchy
-
----
-
-## Do / Don’t
-
-### Do
-- Use color intentionally
-- Keep layouts tight
-- Reuse components
-
-### Don’t
-- Overuse color
-- Mix styles randomly
-- Create one-offs
-
----
-
-# 2. BRAND SYSTEM
-
-## Visual Identity
-
-### Rules
-- Primary colors dominate UI
+- Primary colors dominate
 - Accent used sparingly
 - Avoid heavy gradients
 
 ---
 
-## Imagery
+### Imagery
 - Clean
 - High contrast
 - Minimal clutter
-- Avoid stock-heavy visuals
+- Contextual (not stock-heavy)
 
 ---
 
-## Brand Do / Don’t
+## 5. VOICE SYSTEM
 
-### Do
-- Keep layouts breathable
-- Maintain spacing consistency
-
-### Don’t
-- Mix styles
-- Overuse shadows/gradients
-
----
-
-# 3. VOICE SYSTEM
-
-## Tone
+### Tone
 - Clear
 - Confident
 - Human
@@ -263,28 +186,14 @@ States:
 
 ---
 
-## Writing Style
+### Writing Rules
 - Short sentences
-- Active voice only
+- Active voice
 - No unnecessary jargon
 
 ---
 
-## Audience Modes
-
-### B2B
-- Structured
-- Data-driven
-- Professional
-
-### B2C
-- Conversational
-- Relatable
-- Benefit-focused
-
----
-
-## Messaging Pillars
+### Messaging Pillars
 1. Simplicity
 2. Clarity
 3. Value
@@ -292,31 +201,9 @@ States:
 
 ---
 
-## Writing Standard
+## 6. VOCABULARY SYSTEM
 
-Weak:
-"We aim to leverage innovative solutions..."
-
-Strong:
-"We help you build faster with AI."
-
----
-
-## Voice Do / Don’t
-
-### Do
-- Be specific
-- Use examples
-
-### Don’t
-- Over-explain
-- Use filler words
-
----
-
-# 4. VOCABULARY SYSTEM
-
-## Approved Terms
+### Approved Terms
 - UI
 - AI-powered
 - Workflow
@@ -325,7 +212,7 @@ Strong:
 
 ---
 
-## Banned Terms
+### Banned Terms
 - Cutting-edge
 - Revolutionary
 - Next-gen
@@ -333,72 +220,95 @@ Strong:
 
 ---
 
-## Naming Conventions
-
-### Components
-- Button / Primary Button
-- Card / Product Card
-
-### Files
-- kebab-case
-  - design-system.md
-  - button-component.md
-
-### Variables
-- camelCase
-  - primaryColor
-  - spacingLarge
+### Microcopy Rules
+- Buttons: 1–2 words
+- Errors: clear + actionable
 
 ---
 
-## Consistency Rules
-- Same term = same meaning
-- No synonyms for core features
+## 7. OUTPUT SYSTEM (CORE)
+
+### Output Generation Rules
+
+All outputs must:
+
+1. Follow a defined structure (based on type)
+2. Apply layout and hierarchy rules (Design System)
+3. Apply tone and clarity (Voice System)
+4. Use approved terminology (Vocabulary System)
+5. Align with brand identity (Brand System)
 
 ---
 
-## Microcopy
+### Document Type Mapping
 
-### Buttons
-- 1–2 words
-  - Get Started
-  - Save
+Deck:
+- Cover
+- Problem
+- Solution
+- Results
+- CTA
 
-### Errors
-- Clear + actionable
-  - Email is invalid
+Case Study:
+- Problem
+- Approach
+- Solution
+- Results
+
+Report:
+- Summary
+- Insights
+- Data
+- Recommendations
+
+Landing Page:
+- Hero
+- Problem
+- Solution
+- Features
+- CTA
 
 ---
 
-# 5. SYSTEM STRUCTURE
+## 8. VALIDATION SYSTEM
 
-## Figma Structure
-- Foundations
-- Tokens
-- Components
-- Patterns
-- Screens
+Before publishing, outputs must pass:
+
+- Structure completeness
+- Tone consistency
+- Vocabulary compliance
+- Visual hierarchy clarity
+
+If any rule fails:
+→ Output must be revised
 
 ---
 
-## Scalability Rules
+## 9. SCALABILITY RULES
 
-### New Components
-- Must use tokens
+### Adding Components
+- Must use system tokens
 - Must include all states
-- Must be reusable (≥2 use cases)
+- Must be reusable across ≥2 contexts
+
+---
 
 ### Extending System
-- Add tokens only
+- Add tokens, not overrides
 - Avoid hardcoded values
 
 ---
 
-# FINAL PRINCIPLE
+## 10. SYSTEM PRINCIPLES
 
-Every decision must:
-- Reduce friction
-- Improve clarity
-- Increase speed
+- If everything stands out → nothing stands out
+- If structure is inconsistent → output fails
+- If language varies → trust is reduced
 
-No decoration without purpose.
+---
+
+## FINAL PRINCIPLE
+
+If content is not structured, it cannot scale.
+
+DesignOS introduces constraints so AI can produce consistent, high-quality outputs across any format.
