@@ -49,7 +49,7 @@ Before anything ships.
 - [BRAND.md](designos/BRAND.md) - Brand identity and principles  
 - [VOICE.md](designos/VOICE.md) - Tone and communication style  
 - [VOCABULARY.md](designos/VOCABULARY.md) - Approved language and naming rules  
-- [DESIGNOS.md](designos/DESIGNOS.md) - Governing system (rules, logic, orchestration)
+- [DESIGN_OS.md](designos/DESIGN_OS.md) - Governing system (rules, logic, orchestration)
 
 ---
 
