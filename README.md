@@ -65,6 +65,16 @@ Before anything ships.
 
 ---
 
+## How to Use with AI
+
+1. Copy DESIGN.md into your project
+2. Paste into ChatGPT / Claude
+3. Prompt:
+
+"Use this DesignOS system to generate a marketing report"
+
+---
+
 ## What Each File Does
 
 ### DESIGN.md
