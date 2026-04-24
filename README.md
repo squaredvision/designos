@@ -6,6 +6,8 @@ This is not just a design system.
 
 It is a full operating system for how content gets created, structured, and validated across outputs like decks, case studies, reports, and one-pagers.
 
+[Go to DESIGN.MD resources](#designmd-resources)
+
 ---
 
 ## Why DesignOS
