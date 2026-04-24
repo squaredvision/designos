@@ -179,6 +179,16 @@ DesignOS introduces constraints so AI can produce better outputs.
 
 ---
 
+## DESIGN.md Resources
+
+- https://getdesign.md/ - Official DESIGN.md overview and examples  
+- https://github.com - Search "DESIGN.md" to explore real implementations  
+- https://designmd.ai/ - AI-powered tools and workflows built around DESIGN.md  
+- https://designmd.app/en/ - Interactive platform for exploring and using DESIGN.md  
+- https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma?pli=1 - Chrome extension to extract styles into DESIGN.md format 
+
+---
+
 ## Contributing
 
 This system is evolving.
