@@ -8,16 +8,6 @@ It is a full operating system for how content gets created, structured, and vali
 
 ---
 
-## DESIGN.md Resources
-
-- https://getdesign.md/ - Official DESIGN.md overview and examples  
-- https://github.com - Search "DESIGN.md" to explore real implementations  
-- https://designmd.ai/ - AI-powered tools and workflows built around DESIGN.md  
-- https://designmd.app/en/ - Interactive platform for exploring and using DESIGN.md  
-- https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma?pli=1 - Chrome extension to extract styles into DESIGN.md format 
-
----
-
 ## Quick Example
 
 Turn this:
@@ -129,6 +119,16 @@ Use this DesignOS system to generate a landing page for a SaaS product. Follow t
 
 ---
 
+## DESIGN.md Resources
+
+- https://getdesign.md/ - Official DESIGN.md overview and examples  
+- https://github.com - Search "DESIGN.md" to explore real implementations  
+- https://designmd.ai/ - AI-powered tools and workflows built around DESIGN.md  
+- https://designmd.app/en/ - Interactive platform for exploring and using DESIGN.md  
+- https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma?pli=1 - Chrome extension to extract styles into DESIGN.md format 
+
+---
+
 ## What Each File Does
 
 ### DESIGN.md
@@ -196,16 +196,27 @@ DesignOS:
 
 ---
 
-## Extended System (Advanced)
-
-DesignOS can scale with:
-
 ### Document Tiers
 Different rules depending on output type:
 - [Decks](examples/deck.md)
 - [Case studies](examples/case-study.md)
 - [Reports](examples/report.md)
 - [Landing pages](examples/landing-page.md)
+
+---
+
+## Version
+
+DesignOS v1.0
+
+This version defines the core system:
+- DESIGN.md
+- BRAND.md
+- VOICE.md
+- VOCABULARY.md
+- DESIGN_OS.md
+
+Future versions will expand validation, automation, and system integrations.
 
 ---
 
@@ -249,13 +260,7 @@ Outputs are checked before shipping:
 
 If content is not structured, it cannot scale.
 
----
-
-## Philosophy
-
-If everything is flexible, nothing is consistent.
-
-DesignOS introduces constraints so AI can produce better outputs.
+DesignOS introduces constraints so AI can produce consistent, high-quality outputs.
 
 ---
 
