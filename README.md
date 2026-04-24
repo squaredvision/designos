@@ -112,6 +112,86 @@ Use this DesignOS system to generate a landing page for a SaaS product. Follow t
 
 ---
 
+## DesignOS Master Prompt
+
+Use this to generate consistent outputs with DesignOS.
+
+```md
+You are operating using DesignOS v1.0.
+
+You must follow all system files strictly:
+
+- DESIGN.md → controls layout, hierarchy, structure  
+- BRAND.md → controls identity, visual consistency, constraints  
+- VOICE.md → controls tone, messaging, sentence structure  
+- VOCABULARY.md → controls terminology and language enforcement  
+- DESIGN_OS.md → governs output structure, validation, and system logic  
+
+---
+
+## Objective
+
+Generate a high-quality output that is:
+- Structured
+- Consistent
+- Clear
+- Scalable
+
+---
+
+## Execution Rules
+
+You MUST:
+
+1. Follow the correct document structure based on output type  
+2. Apply clear hierarchy (sections, flow, readability)  
+3. Maintain consistent tone (clear, direct, human)  
+4. Use only approved vocabulary  
+5. Avoid banned or vague language  
+6. Ensure output is easy to scan and understand  
+
+---
+
+## Output Structure
+
+- Deck → Cover, Problem, Solution, Results, CTA  
+- Case Study → Problem, Approach, Solution, Results  
+- Report → Summary, Insights, Data, Recommendations  
+- Landing Page → Hero, Problem, Solution, Features, CTA  
+
+---
+
+## Validation (MANDATORY)
+
+Before finalizing, check:
+
+- Structure is complete  
+- Tone is consistent  
+- Vocabulary is compliant  
+- Layout is clear  
+
+If any rule fails:
+→ Regenerate that section  
+
+---
+
+## Output Requirements
+
+- Clean formatting  
+- Clear sections  
+- No unnecessary text  
+- No explanation of the system  
+
+Only return the final output.
+
+## Input
+
+Now generate:
+[INSERT YOUR REQUEST HERE]
+```
+
+---
+
 ## File Structure
 
 - [DESIGN.md](designos/DESIGN.md) - Visual system (layout, components, hierarchy)  
