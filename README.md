@@ -45,11 +45,11 @@ Before anything ships.
 
 ## File Structure
 
-- `designos/DESIGN.md` - Visual system (layout, components, hierarchy)  
-- `designos/BRAND.md` - Brand identity and principles  
-- `designos/VOICE.md` - Tone and communication style  
-- `designos/VOCABULARY.md` - Approved language and naming rules  
-- `designos/DesignOS.md` - Governing system (rules, logic, orchestration)  
+- [DESIGN.md](designos/DESIGN.md) - Visual system (layout, components, hierarchy)  
+- [BRAND.md](designos/BRAND.md) - Brand identity and principles  
+- [VOICE.md](designos/VOICE.md) - Tone and communication style  
+- [VOCABULARY.md](designos/VOCABULARY.md) - Approved language and naming rules  
+- [DESIGNOS.md](designos/DESIGNOS.md) - Governing system (rules, logic, orchestration)
 
 ---
 
