@@ -18,6 +18,39 @@ It is a full operating system for how content gets created, structured, and vali
 
 ---
 
+## Quick Example
+
+Turn this:
+
+```text
+"Create a marketing case study"
+```
+
+Into this:
+
+```md
+Use DESIGN.md, BRAND.md, VOICE.md, and VOCABULARY.md to generate a structured case study with clear hierarchy, consistent tone, and defined sections (Problem, Solution, Results).
+```
+---
+
+## DESIGN.md Example
+
+```yaml
+colors:
+  primary: "#2665fd"
+  surface: "#0b1326"
+  on-surface: "#dae2fd"
+
+spacing:
+  base: 8
+  scale: [4, 8, 16, 24]
+```
+
+Design is no longer abstract.  
+It becomes a system AI can read and execute.
+
+---
+
 ## Why DesignOS
 
 [![Watch the video](assets/thumbnail.png)](https://www.youtube.com/watch?v=W1gWIQp9k1Y)
@@ -63,15 +96,36 @@ Before anything ships.
 - [VOCABULARY.md](designos/VOCABULARY.md) - Approved language and naming rules  
 - [DESIGN_OS.md](designos/DESIGN_OS.md) - Governing system (rules, logic, orchestration)
 
+## System Logic
+
+```text
+Input → System → Output
+
+DESIGN.md → Layout and hierarchy  
+VOICE.md → Tone and clarity  
+VOCABULARY.md → Terminology  
+BRAND.md → Identity  
+
+= Structured, consistent outputs
+```
+
 ---
 
 ## How to Use with AI
 
-1. Copy DESIGN.md into your project
-2. Paste into ChatGPT / Claude
-3. Prompt:
+1. Copy the system files into your project:
+   - DESIGN.md
+   - BRAND.md
+   - VOICE.md
+   - VOCABULARY.md
 
-"Use this DesignOS system to generate a marketing report"
+2. Paste into your AI tool
+
+3. Use this prompt:
+
+```md
+Use this DesignOS system to generate a landing page for a SaaS product. Follow the structure, tone, and design rules defined in the files.
+```
 
 ---
 
@@ -188,6 +242,12 @@ Outputs are checked before shipping:
 2. Add files to your project
 3. Use them as input context for AI tools (ChatGPT, Claude, etc.)
 4. Generate outputs with structured consistency
+
+---
+
+## Principle
+
+If content is not structured, it cannot scale.
 
 ---
 
