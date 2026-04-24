@@ -44,8 +44,6 @@ It becomes a system AI can read and execute.
 
 ## Why DesignOS
 
-[![Watch the video](assets/thumbnail.png)](https://www.youtube.com/watch?v=W1gWIQp9k1Y)
-
 Most design systems stop at UI.
 
 They define tokens, colors, and components.
