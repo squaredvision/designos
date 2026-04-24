@@ -1,5 +1,6 @@
 ---
 name: DevFocus Dark
+version: 1.0
 theme: dark
 
 colors:
@@ -49,201 +50,226 @@ motion:
 # DESIGN SYSTEM
 
 ## Overview
-A focused, minimal dark interface built for developer productivity.
-
-Priorities:
-- High information density
-- Low visual noise
-- Fast scanning
-- Clear hierarchy
+Defines how layout, hierarchy, and components are structured and applied across all outputs.
 
 ---
 
-## Foundations
+## 1. DESIGN PRINCIPLES
+
+- High information density  
+- Low visual noise  
+- Fast scanning  
+- Clear hierarchy  
+
+---
+
+## 2. FOUNDATIONS
 
 ### Color Usage
-- **Primary** - reserved for key actions only (CTA, active states)
-- **Secondary** - supporting UI and less critical actions
-- **Surface** - main background
-- **Surface Variant** - cards, containers
-- **Border** - subtle separation, never dominant
-- **On Surface** - main text
-- **Muted Text** - secondary info, labels
+
+- Primary → key actions only  
+- Secondary → supporting UI  
+- Surface → base layout  
+- Surface Variant → containers  
+- Border → subtle separation  
+- On Surface → primary text  
+- Muted → secondary text  
 
 ### Rules
-- Avoid using more than 2 accent colors per screen
-- Never use pure white (#FFFFFF) on dark surfaces
-- Maintain minimum contrast ratio of 4.5:1
+- Max 2 accent colors per screen  
+- No pure white (#FFFFFF) on dark surfaces  
+- Minimum contrast ratio: 4.5:1  
 
 ---
 
-## Typography
+## 3. TYPOGRAPHY
 
 ### Hierarchy
-- Display - hero sections only
-- Headings - structure content
-- Body - primary reading text
-- Caption - metadata, hints
+- Display → hero sections  
+- Headings → structure  
+- Body → reading content  
+- Caption → metadata  
 
 ### Rules
-- Max 3 sizes per screen
-- Line height: 1.4–1.6
-- Avoid mixing weights excessively
+- Max 3 sizes per screen  
+- Line height: 1.4–1.6  
+- Avoid excessive weights  
 
 ---
 
-## Layout & Spacing
+## 4. LAYOUT & SPACING
 
 ### Grid
-- Desktop: 12 columns
-- Tablet: 8 columns
-- Mobile: 4 columns
+- Desktop: 12 columns  
+- Tablet: 8 columns  
+- Mobile: 4 columns  
 
 ### Spacing Rules
-- Use 8px base system
-- Internal spacing < external spacing
-- Maintain consistent padding across similar components
+- Use 8px base system  
+- Internal spacing < external spacing  
+- Consistent padding across components  
 
 ---
 
-## Components
+## 5. COMPONENT SYSTEM
 
 ### Principles
-- Reusable
-- Predictable
-- Stateless by default, extended with states
+- Reusable  
+- Predictable  
+- Stateless by default  
 
 ---
 
 ### Buttons
-- Radius: 8px
-- Height: 40–48px
+- Height: 40–48px  
+- Radius: 8px  
 
-**Variants**
-- Primary (filled)
-- Secondary (outline)
-- Ghost (no background)
+Variants:
+- Primary  
+- Secondary  
+- Ghost  
 
-**States**
-- Default
-- Hover (slightly brighter)
-- Active (slightly darker)
-- Disabled (reduced opacity)
+States:
+- Default  
+- Hover  
+- Active  
+- Disabled  
 
 ---
 
 ### Inputs
-- Border: 1px solid border color
-- Background: surface-variant
-- Text: on-surface
+- Border: 1px  
+- Background: surface-variant  
 
-**States**
-- Default
-- Focus (primary border)
-- Error (error color)
-- Disabled
+States:
+- Default  
+- Focus  
+- Error  
+- Disabled  
 
 ---
 
 ### Cards
-- No elevation
-- Use background contrast instead
-- Optional border for separation
+- No elevation  
+- Use contrast instead  
+- Optional borders  
 
 ---
 
 ### Modals
-- Centered
-- Dimmed background (overlay)
-- Clear primary action
+- Centered  
+- Dimmed overlay  
+- Clear primary action  
 
 ---
 
-## Interaction
+## 6. INTERACTION
 
 ### Motion
-- Use subtle transitions only
-- Duration: 150–300ms
-- Avoid decorative animations
+- 150–300ms  
+- Subtle transitions only  
+- No decorative animation  
 
 ### Feedback
-- Immediate response on interaction
-- Always show hover/focus states
+- Immediate response  
+- Always show hover/focus states  
 
 ---
 
-## Accessibility
+## 7. ACCESSIBILITY
 
-- Minimum contrast: WCAG AA (4.5:1)
-- Click targets: minimum 44px height
-- Keyboard navigation required
-- Visible focus states mandatory
+- WCAG AA (4.5:1)  
+- Min target: 44px  
+- Keyboard navigation required  
+- Visible focus states mandatory  
 
 ---
 
-## Design Logic (Important)
+## 8. DESIGN LOGIC
 
 ### Hierarchy Order
-1. Size
-2. Contrast
-3. Position
-4. Color
+1. Size  
+2. Contrast  
+3. Position  
+4. Color  
 
-### Decision Rules
-- If everything is highlighted → nothing stands out
-- If spacing is inconsistent → layout feels broken
-- If colors compete → hierarchy is lost
-
----
-
-## Do / Don’t
-
-### Do
-- Use primary color intentionally
-- Keep layouts tight but readable
-- Reuse components consistently
-
-### Don’t
-- Mix border styles randomly
-- Overuse color for hierarchy
-- Create one-off components
+### Rules
+- If everything stands out → nothing stands out  
+- Inconsistent spacing breaks layout  
+- Competing colors kill hierarchy  
 
 ---
 
-## File Structure (Figma / Code)
+## 9. OUTPUT APPLICATION (NEW)
 
-### Figma
-- Foundations
-- Tokens
-- Components
-- Patterns
-- Screens
+Design rules must be applied differently based on output type:
 
-### Naming
-- Button / Primary / Default
-- Input / Error / Focus
-- Card / Default / Compact
+### Deck
+- High contrast  
+- Minimal text  
+- Strong hierarchy  
+
+### Case Study
+- Structured sections  
+- Balanced spacing  
+- Clear reading flow  
+
+### Report
+- Dense information  
+- Consistent typography  
+- Reduced visual noise  
+
+### Landing Page
+- Strong visual hierarchy  
+- Clear CTA placement  
+- Scannable sections  
 
 ---
 
-## System Scalability
+## 10. VALIDATION RULES (CRITICAL)
 
-### Adding New Components
-- Must follow token system
-- Must include all states
-- Must be reusable across ≥2 use cases
+Before publishing, design must pass:
+
+- Layout hierarchy is clear  
+- Spacing follows system scale  
+- Typography is consistent  
+- Color usage follows rules  
+- Components follow defined states  
+
+If any rule fails:
+→ design must be revised  
+
+---
+
+## 11. SYSTEM SCALABILITY
+
+### Adding Components
+- Must use token system  
+- Must include all states  
+- Must be reusable across ≥2 use cases  
 
 ### Extending Theme
-- Add new tokens, not overrides
-- Avoid hardcoded values
+- Add tokens, not overrides  
+- Avoid hardcoded values  
 
 ---
 
-## Summary
+## 12. FAILURE CONDITIONS
 
-This system prioritizes:
-- Speed
-- Clarity
-- Consistency
+A design fails if:
 
-Every design decision should reduce friction, not add decoration.
+- Layout lacks hierarchy  
+- Spacing is inconsistent  
+- Typography scale is broken  
+- Colors are misused  
+- Components behave inconsistently  
+
+---
+
+## FINAL PRINCIPLE
+
+Design is not decoration.
+
+Design is structure.
+
+If structure is inconsistent, the output fails.
