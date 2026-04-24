@@ -1,4 +1,4 @@
-# DesignOS
+![DesignOS Banner](assets/banner.png)
 
 A machine-readable system for consistent, scalable marketing production using AI.
 
