@@ -21,6 +21,7 @@ Into this:
 ```md
 Use DESIGN.md, BRAND.md, VOICE.md, and VOCABULARY.md to generate a structured case study with clear hierarchy, consistent tone, and defined sections (Problem, Solution, Results).
 ```
+
 ---
 
 ## DESIGN.md Example
@@ -78,14 +79,6 @@ Before anything ships.
 
 ---
 
-## File Structure
-
-- [DESIGN.md](designos/DESIGN.md) - Visual system (layout, components, hierarchy)  
-- [BRAND.md](designos/BRAND.md) - Brand identity and principles  
-- [VOICE.md](designos/VOICE.md) - Tone and communication style  
-- [VOCABULARY.md](designos/VOCABULARY.md) - Approved language and naming rules  
-- [DESIGN_OS.md](designos/DESIGN_OS.md) - Governing system (rules, logic, orchestration)
-
 ## System Logic
 
 ```text
@@ -119,13 +112,13 @@ Use this DesignOS system to generate a landing page for a SaaS product. Follow t
 
 ---
 
-## DESIGN.md Resources
+## File Structure
 
-- https://getdesign.md/ - Official DESIGN.md overview and examples  
-- https://github.com - Search "DESIGN.md" to explore real implementations  
-- https://designmd.ai/ - AI-powered tools and workflows built around DESIGN.md  
-- https://designmd.app/en/ - Interactive platform for exploring and using DESIGN.md  
-- https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma?pli=1 - Chrome extension to extract styles into DESIGN.md format 
+- [DESIGN.md](designos/DESIGN.md) - Visual system (layout, components, hierarchy)  
+- [BRAND.md](designos/BRAND.md) - Brand identity and principles  
+- [VOICE.md](designos/VOICE.md) - Tone and communication style  
+- [VOCABULARY.md](designos/VOCABULARY.md) - Approved language and naming rules  
+- [DESIGN_OS.md](designos/DESIGN_OS.md) - Governing system (rules, logic, orchestration)
 
 ---
 
@@ -141,6 +134,21 @@ Defines the visual system.
 
 Not token-based - built for real outputs.
 
+```yaml
+layout:
+  grid: 12
+  spacing: 8
+
+components:
+  button:
+    radius: 8px
+    height: 44px
+
+typography:
+  heading: 28px
+  body: 16px
+```
+
 ---
 
 ### BRAND.md
@@ -149,6 +157,18 @@ Defines what the brand stands for.
 - Visual identity
 - Color usage
 - Design principles
+
+```yaml
+brand:
+  primary: "#000000"
+  secondary: "#FFFFFF"
+  accent: "#4F46E5"
+
+principles:
+  - clarity
+  - consistency
+  - simplicity
+```
 
 ---
 
@@ -159,6 +179,17 @@ Defines how the brand communicates.
 - Writing style
 - Messaging structure
 
+```yaml
+tone:
+  style: direct
+  voice: confident
+
+rules:
+  - short sentences
+  - no jargon
+  - active voice
+```
+
 ---
 
 ### VOCABULARY.md
@@ -168,6 +199,21 @@ Defines what language is allowed.
 - Banned terms
 - Naming conventions
 - Microcopy rules
+
+```yaml
+approved:
+  - AI-powered
+  - workflow
+  - system
+
+banned:
+  - revolutionary
+  - next-gen
+  - seamless
+
+buttons:
+  maxWords: 2
+```
 
 ---
 
@@ -196,12 +242,29 @@ DesignOS:
 
 ---
 
-### Document Tiers
+## Document Tiers
+
 Different rules depending on output type:
 - [Decks](examples/deck.md)
 - [Case studies](examples/case-study.md)
 - [Reports](examples/report.md)
 - [Landing pages](examples/landing-page.md)
+
+---
+
+## Extended System
+
+### Skill Files
+Encodes how each asset is built step-by-step.
+
+### HTML Specs
+Design becomes executable structure.
+
+### Validation Agents
+Outputs are checked before shipping:
+- Layout consistency
+- Tone alignment
+- Vocabulary compliance
 
 ---
 
@@ -220,24 +283,6 @@ Future versions will expand validation, automation, and system integrations.
 
 ---
 
-### Skill Files
-Encodes how each asset is built step-by-step.
-
----
-
-### HTML Specs
-Design becomes executable structure.
-
----
-
-### Validation Agents
-Outputs are checked before shipping:
-- Layout consistency
-- Tone alignment
-- Vocabulary compliance
-
----
-
 ## Use Cases
 
 - Marketing teams using AI
@@ -247,12 +292,22 @@ Outputs are checked before shipping:
 
 ---
 
+## DESIGN.md Resources
+
+- https://getdesign.md/ - Official DESIGN.md overview and examples  
+- https://github.com - Search "DESIGN.md" to explore real implementations  
+- https://designmd.ai/ - AI-powered tools and workflows built around DESIGN.md  
+- https://designmd.app/en/ - Interactive platform for exploring and using DESIGN.md  
+- https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma?pli=1 - Chrome extension to extract styles into DESIGN.md format 
+
+---
+
 ## How to Use
 
-1. Clone or download the repo
-2. Add files to your project
-3. Use them as input context for AI tools (ChatGPT, Claude, etc.)
-4. Generate outputs with structured consistency
+1. Clone or download the repo  
+2. Add files to your project  
+3. Use them as input context for AI tools (ChatGPT, Claude, etc.)  
+4. Generate outputs with structured consistency  
 
 ---
 
@@ -269,5 +324,3 @@ DesignOS introduces constraints so AI can produce consistent, high-quality outpu
 This system is evolving.
 
 Feel free to fork, adapt, and extend based on your workflows.
-
----
