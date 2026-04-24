@@ -10,7 +10,7 @@ It is a full operating system for how content gets created, structured, and vali
 
 ## Why DesignOS
 
-[![Watch the video](assets/thumbnail.png)]([https://your-video-link.com](https://www.youtube.com/watch?v=W1gWIQp9k1Y))
+[![Watch the video](assets/thumbnail.png)]((https://www.youtube.com/watch?v=W1gWIQp9k1Y))
 
 Most design systems stop at UI.
 
